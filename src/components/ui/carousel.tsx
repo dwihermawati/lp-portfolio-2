@@ -52,8 +52,6 @@ function Carousel({
   children,
   ...props
 }: React.ComponentProps<'div'> & CarouselProps) {
-  const [_emblaApi, _setEmblaApi] = React.useState<CarouselApi | null>(null);
-  const [_activeIndex, _setActiveIndex] = React.useState(0);
   const [carouselRef, api] = useEmblaCarousel(
     {
       ...opts,

@@ -29,7 +29,7 @@ export const Project: React.FC = () => {
     };
 
     emblaApi.on('select', onSelect);
-    onSelect(); // inisialisasi awal
+    onSelect();
 
     return () => {
       emblaApi?.off('select', onSelect);

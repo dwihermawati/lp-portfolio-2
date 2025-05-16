@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 type Props = {
   to: number;
@@ -19,8 +19,7 @@ export const CountUp: React.FC<Props> = ({
   const [count, setCount] = useState(0);
   const animationRef = useRef<number | null>(null);
 
-  const animateCount = () => {
-    let start = 0;
+  const animateCount = useCallback(() => {
     const startTime = performance.now();
 
     const step = (timestamp: number) => {
@@ -35,7 +34,7 @@ export const CountUp: React.FC<Props> = ({
 
     cancelAnimationFrame(animationRef.current || 0);
     requestAnimationFrame(step);
-  };
+  }, [to, duration]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
