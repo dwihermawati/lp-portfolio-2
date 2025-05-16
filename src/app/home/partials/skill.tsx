@@ -10,7 +10,6 @@ import {
 import SkillCard from '@/components/ui/skillCard';
 
 import { skillsData } from '@/constants/skills-data';
-
 import { chunk } from '@/lib/array';
 
 export const Skill: React.FC = () => {

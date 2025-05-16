@@ -1,8 +1,8 @@
 'use client';
 
 import { ArrowDown } from 'lucide-react';
-import Link from 'next/link';
 import Image from 'next/image';
+import Link from 'next/link';
 import React, { useEffect, useRef } from 'react';
 
 import { socialMediaData } from '@/constants/social-media-data';
