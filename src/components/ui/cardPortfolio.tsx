@@ -1,8 +1,9 @@
-import { cn } from '@/lib/utils';
 import { Icon } from '@iconify/react';
 import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+
+import { cn } from '@/lib/utils';
 
 type PortfolioProps = {
   imageSrc: StaticImageData;

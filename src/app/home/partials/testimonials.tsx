@@ -1,3 +1,7 @@
+import { Icon } from '@iconify/react';
+import Image, { StaticImageData } from 'next/image';
+import React from 'react';
+
 import { Section } from '@/components/layouts/section';
 import {
   Carousel,
@@ -5,10 +9,8 @@ import {
   CarouselItem,
   CarouselNavigation,
 } from '@/components/ui/carousel';
+
 import { clientsTestimonial } from '@/constants/client-data';
-import { Icon } from '@iconify/react';
-import Image, { StaticImageData } from 'next/image';
-import React from 'react';
 
 export const Testimonials: React.FC = () => {
   return (

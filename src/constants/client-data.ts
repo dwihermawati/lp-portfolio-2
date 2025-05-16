@@ -1,5 +1,9 @@
 import { StaticImageData } from 'next/image';
 
+import iconCompany1 from '../../public/Icons/companyIcon5.png';
+import iconCompany2 from '../../public/Icons/companyIcon6.png';
+import iconCompany3 from '../../public/Icons/companyIcon7.png';
+import iconCompany4 from '../../public/Icons/companyIcon8.png';
 import profileSrc1 from '../../public/Images/client-1.png';
 import profileSrc2 from '../../public/Images/client-2.png';
 import profileSrc3 from '../../public/Images/client-3.png';
@@ -8,10 +12,6 @@ import profileSrc5 from '../../public/Images/client-5.png';
 import profileSrc6 from '../../public/Images/client-6.png';
 import profileSrc7 from '../../public/Images/client-7.png';
 import profileSrc8 from '../../public/Images/client-8.png';
-import iconCompany1 from '../../public/Icons/companyIcon5.png';
-import iconCompany2 from '../../public/Icons/companyIcon6.png';
-import iconCompany3 from '../../public/Icons/companyIcon7.png';
-import iconCompany4 from '../../public/Icons/companyIcon8.png';
 
 type Client = {
   profileSrc: StaticImageData;

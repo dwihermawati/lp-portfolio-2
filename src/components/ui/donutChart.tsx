@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+
 import { CountUp } from '@/components/ui/countUp';
 
 interface DonutChartProps {

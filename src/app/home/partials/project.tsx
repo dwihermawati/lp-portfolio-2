@@ -1,7 +1,10 @@
 'use client';
 
+import React from 'react';
+
 import { Section } from '@/components/layouts/section';
 import CardPortfolio from '@/components/ui/cardPortfolio';
+
 import {
   Carousel,
   CarouselContent,
@@ -11,8 +14,6 @@ import {
 } from '@/components/ui/carousel';
 import { portfolioData } from '@/constants/portfolio-data';
 import { chunk } from '@/lib/array';
-
-import React from 'react';
 
 export const Project: React.FC = () => {
   const [emblaApi, setEmblaApi] = React.useState<CarouselApi | null>(null);

@@ -1,6 +1,7 @@
+import React from 'react';
+
 import { Section } from '@/components/layouts/section';
 import ContactForm from '@/components/ui/contactForm';
-import React from 'react';
 
 export const Contact: React.FC = () => {
   return (

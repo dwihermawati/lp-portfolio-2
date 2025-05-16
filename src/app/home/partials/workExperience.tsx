@@ -1,10 +1,11 @@
 'use client';
 
-import { Section } from '@/components/layouts/section';
-import { workExperienceData } from '@/constants/work-experience-data';
+import { motion } from 'motion/react';
 import Image, { StaticImageData } from 'next/image';
 
-import { motion } from 'motion/react';
+import { Section } from '@/components/layouts/section';
+
+import { workExperienceData } from '@/constants/work-experience-data';
 
 export const WorkExperience: React.FC = () => {
   return (

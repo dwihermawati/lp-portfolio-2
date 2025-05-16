@@ -1,8 +1,10 @@
-import { Section } from '@/components/layouts/section';
-import { comparisonData } from '@/constants/comparasion-data';
 import { Check, X } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react';
+
+import { Section } from '@/components/layouts/section';
+
+import { comparisonData } from '@/constants/comparasion-data';
 
 export const StandOut: React.FC = () => {
   return (

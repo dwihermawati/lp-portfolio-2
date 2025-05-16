@@ -1,10 +1,11 @@
 'use client';
 
-import { socialMediaData } from '@/constants/social-media-data';
 import { ArrowDown } from 'lucide-react';
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import React, { useEffect, useRef } from 'react';
+
+import { socialMediaData } from '@/constants/social-media-data';
 
 export const Hero: React.FC = () => {
   const imageRef = useRef<HTMLImageElement>(null);

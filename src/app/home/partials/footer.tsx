@@ -1,7 +1,8 @@
-import { socialMediaData } from '@/constants/social-media-data';
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
 import React from 'react';
+
+import { socialMediaData } from '@/constants/social-media-data';
 
 export const Footer: React.FC = () => {
   return (

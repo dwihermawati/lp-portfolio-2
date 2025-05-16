@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Section } from '@/components/layouts/section';
 import {
   Carousel,
@@ -6,8 +7,10 @@ import {
   CarouselItem,
   CarouselNavigation,
 } from '@/components/ui/carousel';
-import { skillsData } from '@/constants/skills-data';
 import SkillCard from '@/components/ui/skillCard';
+
+import { skillsData } from '@/constants/skills-data';
+
 import { chunk } from '@/lib/array';
 
 export const Skill: React.FC = () => {

@@ -1,17 +1,17 @@
 import { StaticImageData } from 'next/image';
 
-import iconTech1 from '../../public/Icons/html-icon.png';
-import iconTech2 from '../../public/Icons/js-icon.png';
-import iconTech3 from '../../public/Icons/react-icon.png';
-import iconTech4 from '../../public/Icons/mongo-icon.png';
 import iconTech5 from '../../public/Icons/docker-icon.png';
-import iconTech6 from '../../public/Icons/ts-icon.png';
-import iconTech7 from '../../public/Icons/ts-icon.png';
 import iconTech8 from '../../public/Icons/docker-icon.png';
+import iconTech1 from '../../public/Icons/html-icon.png';
+import iconTech12 from '../../public/Icons/html-icon.png';
+import iconTech2 from '../../public/Icons/js-icon.png';
+import iconTech11 from '../../public/Icons/js-icon.png';
+import iconTech4 from '../../public/Icons/mongo-icon.png';
 import iconTech9 from '../../public/Icons/mongo-icon.png';
 import iconTech10 from '../../public/Icons/react-icon.png';
-import iconTech11 from '../../public/Icons/js-icon.png';
-import iconTech12 from '../../public/Icons/html-icon.png';
+import iconTech3 from '../../public/Icons/react-icon.png';
+import iconTech6 from '../../public/Icons/ts-icon.png';
+import iconTech7 from '../../public/Icons/ts-icon.png';
 
 export type SkillData = {
   icon: StaticImageData;

@@ -1,8 +1,8 @@
 import { StaticImageData } from 'next/image';
 
-import project1Icon from '../../public/Icons/landing-page-icon.svg';
-import project2Icon from '../../public/Icons/dashboard-icon.svg';
 import project3Icon from '../../public/Icons/company-profile-icon.svg';
+import project2Icon from '../../public/Icons/dashboard-icon.svg';
+import project1Icon from '../../public/Icons/landing-page-icon.svg';
 
 type Project = {
   icon: StaticImageData;

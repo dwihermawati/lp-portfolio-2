@@ -2,12 +2,12 @@
 
 import emailjs from '@emailjs/browser';
 import { zodResolver } from '@hookform/resolvers/zod';
+import { Icon } from '@iconify/react';
+import { motion, useAnimation } from 'motion/react';
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { BeatLoader } from 'react-spinners';
 import { z } from 'zod';
-import { Icon } from '@iconify/react';
-import { motion, useAnimation } from 'motion/react';
 
 import {
   Form,

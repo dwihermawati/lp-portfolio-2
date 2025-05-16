@@ -1,9 +1,11 @@
-import { CountUp } from '@/components/ui/countUp';
-import ProjectCard from '@/components/ui/projectCard';
-import { clientsData } from '@/constants/client-data';
-import { projectsData } from '@/constants/project-data';
 import Image from 'next/image';
 import React from 'react';
+
+import { CountUp } from '@/components/ui/countUp';
+import ProjectCard from '@/components/ui/projectCard';
+
+import { clientsData } from '@/constants/client-data';
+import { projectsData } from '@/constants/project-data';
 
 export const About: React.FC = () => {
   const happyClients = clientsData.slice(0, 4);
