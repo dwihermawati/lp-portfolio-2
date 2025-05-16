@@ -52,7 +52,7 @@ export const CountUp: React.FC<Props> = ({
       if (node) observer.unobserve(node);
       cancelAnimationFrame(animationRef.current || 0);
     };
-  }, [to, duration]);
+  }, [animateCount]);
 
   return (
     <span ref={ref} className={className}>
