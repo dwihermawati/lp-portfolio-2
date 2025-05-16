@@ -7,7 +7,7 @@ import { socialMediaData } from '@/constants/social-media-data';
 export const Footer: React.FC = () => {
   return (
     <footer className='relative bg-neutral-950'>
-      <div className='absolute -top-[43%] z-[-1] h-55 w-full bg-neutral-950'></div>
+      <div className='absolute -top-[43%] z-[-1] h-55 w-full bg-neutral-950 max-md:-top-[37%]'></div>
       <div className='before-bg-footer relative overflow-hidden'>
         <div className='custom-container flex-center flex-col gap-8 bg-neutral-950 pt-13 pb-26.25 md:pt-26.25 md:pb-36.25'>
           <Link
