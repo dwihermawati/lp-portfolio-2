@@ -249,7 +249,7 @@ body {
 
   .after-bg-curve::after {
     content: '';
-    @apply absolute inset-x-0 top-[97%] z-20 mx-auto h-full w-full bg-[url('/Images/bg-curve.svg')] bg-contain bg-no-repeat md:top-[91%];
+    @apply absolute top-[97%] z-20 h-full w-full bg-[url('/Images/bg-curve-hero.svg')] bg-contain bg-no-repeat md:top-[91%];
   }
   .before-bg-hero::before {
     content: '';
@@ -280,9 +280,9 @@ body {
 }
 
 img {
-  user-drag: none;
+  /* user-drag: none; */
   -webkit-user-drag: none; /* For Safari */
   user-select: none; /* Prevent selection */
-  touch-action: none; /* Disable touch gestures */
+  touch-action: auto; /* Disable touch gestures */
   -webkit-user-select: none; /* For Safari */
 }

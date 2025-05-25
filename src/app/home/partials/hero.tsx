@@ -3,24 +3,24 @@
 import { ArrowDown } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import React, { useEffect, useRef } from 'react';
+import React from 'react';
 
 import { socialMediaData } from '@/constants/social-media-data';
 
 export const Hero: React.FC = () => {
-  const imageRef = useRef<HTMLImageElement>(null);
+  // const imageRef = useRef<HTMLImageElement>(null);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollY = window.scrollY;
-      if (imageRef.current) {
-        imageRef.current.style.transform = `translateY(${scrollY * 0.1}px)`;
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollY = window.scrollY;
+  //     if (imageRef.current) {
+  //       imageRef.current.style.transform = `translateY(${scrollY * 0.1}px)`;
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, []);
   return (
     <section
       className='before-bg-hero after-bg-curve relative overflow-hidden bg-neutral-950'
@@ -39,7 +39,7 @@ export const Hero: React.FC = () => {
         </div>
         <div className='relative'>
           <Image
-            ref={imageRef}
+            // ref={imageRef}
             src='/Images/edwin.png'
             alt='foto'
             width={393}

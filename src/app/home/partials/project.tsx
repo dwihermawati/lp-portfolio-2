@@ -38,10 +38,7 @@ export const Project: React.FC = () => {
 
   return (
     <Section title='PORTFOLIO' subtitle='Latest Project' id='projects'>
-      <Carousel
-        className='overflow-hidden max-sm:hidden lg:w-screen'
-        setApi={setEmblaApi}
-      >
+      <Carousel className='overflow-hidden max-sm:hidden' setApi={setEmblaApi}>
         <CarouselContent>
           {portfolioData.map((item, index) => (
             <CarouselItem key={index}>

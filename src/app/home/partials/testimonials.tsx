@@ -15,7 +15,7 @@ import { clientsTestimonial } from '@/constants/client-data';
 export const Testimonials: React.FC = () => {
   return (
     <Section title='TESTIMONIALS' subtitle='What Our Clients Say'>
-      <Carousel className='overflow-hidden lg:w-screen'>
+      <Carousel className='overflow-hidden'>
         <CarouselContent>
           {clientsTestimonial.map((item, index) => (
             <CarouselItem key={index}>

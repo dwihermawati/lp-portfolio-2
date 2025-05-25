@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1440"
+   height="210"
+   viewBox="0 0 1440 210"
+   fill="none"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="bg-curve-hero.svg"
+   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.29097222"
+     inkscape:cx="720.00001"
+     inkscape:cy="104.821"
+     inkscape:window-width="1366"
+     inkscape:window-height="745"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 1440,390 H 0 V 0 C 195.42599,38.532562 446.34199,61.698527 719.99999,61.698713 993.65698,61.698713 1244.57,38.532562 1440,0 Z"
+     fill="#0A0D12"
+     id="path1"
+     style="fill:#ffffff;stroke-width:1.36276" />
+</svg>
